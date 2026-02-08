@@ -1,3 +1,4 @@
+#if !targetEnvironment(simulator)
 import Foundation
 import NaturalLanguage
 import MLXUtilsLibrary
@@ -496,3 +497,4 @@ final public class EnglishG2P {
     return (result, finalTokens)
   }
 }
+#endif

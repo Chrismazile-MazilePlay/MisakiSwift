@@ -1,3 +1,4 @@
+#if !targetEnvironment(simulator)
 import Foundation
 import MLX
 import MLXNN
@@ -147,3 +148,4 @@ nonisolated final class BARTModel: Module {
     return MLXArray(generatedTokens)
   }
 }
+#endif

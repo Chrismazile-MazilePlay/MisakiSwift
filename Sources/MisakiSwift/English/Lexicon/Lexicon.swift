@@ -1,3 +1,4 @@
+#if !targetEnvironment(simulator)
 import Foundation
 import NaturalLanguage
 import MLXUtilsLibrary
@@ -593,3 +594,4 @@ final class Lexicon {
     return (text, rating)
   }
 }
+#endif

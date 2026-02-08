@@ -1,3 +1,4 @@
+#if !targetEnvironment(simulator)
 import Foundation
 import MLX
 import MLXUtilsLibrary
@@ -93,3 +94,4 @@ final class EnglishFallbackNetwork {
     return weights
   }
 }
+#endif

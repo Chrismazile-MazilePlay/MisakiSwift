@@ -1,3 +1,4 @@
+#if !targetEnvironment(simulator)
 import Foundation
 import MLX
 import MLXNN
@@ -53,3 +54,4 @@ nonisolated final class MultiHeadAttention: Module {
       return outProj(output)
     }
 }
+#endif

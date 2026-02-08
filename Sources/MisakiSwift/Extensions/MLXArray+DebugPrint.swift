@@ -1,3 +1,4 @@
+#if !targetEnvironment(simulator)
 import Foundation
 import MLX
 
@@ -83,3 +84,4 @@ extension MLXArray {
     print("]")
   }
 }
+#endif
